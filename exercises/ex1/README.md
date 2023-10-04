@@ -40,7 +40,7 @@ Choose the corresponding list entry.
 
 ![](./images/image13.png)
 
-(9) Select folder **ui5con2023** and click ![Open](./images/image16.png).
+(9) Select folder **teched2023-DT262** and click ![Open](./images/image16.png).
 
 ![](./images/image15.png)
 
@@ -145,7 +145,7 @@ The empty custom app page is shown.
 Make sure you enable pop-ups
 for SAP Business Application Studio, then restart with **Preview Application** as described above.
 
-- **Please note**: the automatic refresh of the UI when changing some project source code might not be properly working yet with the new typescript based project setup. this is currently under investigation, and a fix might be available only after ui5con2023.
+- **Please note**: the automatic refresh of the UI when changing some project source code might not be properly working yet with the new typescript based project setup. this is currently under investigation, and a fix might be available only after teched2023.
 - Furthermore, you will notice a recurring popup informing you about exposed router ports when applying changes to the project in Business Application Studio which is also being investigated. Please just ignore or close the popup in that case.
 
 ![](./images/exposedPorts.png)

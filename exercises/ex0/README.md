@@ -34,7 +34,7 @@ Once your development space has status running, click on the development space n
 
 ## Getting the Sample Scenario
 
-Get the GitHub repository clone Https Url from the repository's [landing page](https://github.com/c-kobo/ui5con2023).\
+Get the GitHub repository clone Https Url from the repository's [landing page](https://github.com/SAP-samples/teched2023-DT262).\
 Click on button **Code**, then click the copy icon.
 
 ![copy link](../ex0/images/00_00_0070.png)
@@ -51,7 +51,7 @@ Alternatively, you can go via menu **View->Find Command...** and search for comm
 Paste the repository link into the input field.
 
 ```abap
-https://github.com/c-kobo/ui5con2023.git
+https://github.com/SAP-samples/teched2023-DT262.git
 ```
 
 ![Enter the github repository URL](../ex0/images/enter-github-repository.png)
@@ -68,7 +68,7 @@ Alternatively, you can open a workspace via the file menu.
 
 ![open workspace](../ex0/images/00_00_0065.png)
 
-Select folder path **/home/user/projects/ui5con2023/** and click **Ok**. This will restart SAP Business Application Studio.
+Select folder path **/home/user/projects/teched2023-DT262/** and click **Ok**. This will restart SAP Business Application Studio.
 
 ![select ws folder](../ex0/images/00_00_0066.png)
 
