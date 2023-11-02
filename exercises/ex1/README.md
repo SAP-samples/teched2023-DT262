@@ -108,7 +108,11 @@ The requirements for TypeScript enablement in this project setup are an NPM work
 
 ![](./images/dependencies.png)
 
-The app-specific package.json defines plugins for the SAPUI5 type definitions that can be imported into TypeScript based custom extension handlers and controllers. The UI5 Tooling transpile middleware and the corresponding transpile task in file ui5.yaml takes care of transpiling TypeScript code to ES5 using a babel configuration.
+The app-specific package.json defines plugins for the SAPUI5 type definitions that can be imported into TypeScript based custom extension handlers and controllers. The UI5 Tooling transpile middleware and the corresponding transpile task in file ui5.yaml takes care of transpiling TypeScript code to ES5 using a babel configuration. Please ensure you have the following dev dependencies, if not please add them
+
+```abap
+npm i "@sapui5/ts-types-esm"
+```
 
 ![](./images/appDependencies.png)
 

@@ -222,7 +222,7 @@ export function onChartSelectionChanged(this: ExtensionAPI, event: UI5Event<Reco
     if (event.getParameter("selected")) {
         //get element in the context of the custom section fragment
         //byId will be made public on the ExtensionAPI with SAPUI5 1.116.0
-        const element = this.byId("myPopover");
+        const element = this.byId("sap.fe.cap.managetravels::TravelObjectPage--fe::CustomSubSection::CustomSection--myPopover");
         if (element instanceof Popover) {  
             let popupModel = element.getModel("popup") as JSONModel;
     
